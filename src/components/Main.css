@@ -1,0 +1,79 @@
+.app-main {
+    width: 100%;
+    height: 100vh;
+}
+
+/* .app-main-note-edit,
+.app-main-note-preview {
+    /* height: 50vh; */
+
+
+.app-main-note-edit {
+    padding: 20px;
+}
+.app-main-note-edit input, textarea {
+    display: block;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 100%;
+    height: calc(50vh - 60px);
+    padding: 5px;
+    resize: none;
+    height: 85vh;
+}
+
+.app-main-note-edit input {
+    height: 3vh;
+    margin-bottom: 20px;
+}
+
+.app-main-note-preview {
+    border-top: 1px solid #ddd;
+    overflow: scroll;
+    background: rgba(240, 240, 240, 0.1);
+}
+.preview-title {
+    padding: 25px 25px 0 25px;
+    margin: 0;
+}
+.markdown-preview {
+    padding: 0 25px 25px 25px;
+    line-height: 2rem;
+}
+
+.no-active-note {
+    width: 70%;
+    height: 100vh;
+    line-height: 100vh;
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(214, 213, 213);
+}
+
+@media  only screen and ( max-width :  40em ) {
+    .app-main {
+        width: 100%;
+    }
+    .preview-title {
+        font-size: 1rem;
+    }
+    .no-active-note {
+        font-size: 1rem;
+        text-align: center;
+        width: 100%;
+    }
+    .app-main-note-edit {
+        margin: auto;
+        padding: auto;
+    }
+    .app-main-note-preview {
+
+        margin: auto;
+        padding: auto;
+    }
+    .app-main-note-edit input textarea {
+        margin: 0;
+        padding: 0;
+    }
+
+}

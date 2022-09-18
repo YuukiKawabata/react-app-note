@@ -1,0 +1,121 @@
+button {
+    background: none;
+    color: rgb(255, 183, 183);
+    border: none;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.addButton {
+    color: rgb(122, 134, 248);
+}
+
+.app-sidebar {
+    width: 30%;
+    height: 100vh;
+    border-right: 2px solid #ddd;
+    background-color: rgb(209, 238, 245);
+
+
+}
+
+.app-sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.app-sidebar-header h1 {
+    margin: 0;
+}
+
+.app-sidebar-notes{
+    height: calc(100vh - 78px);
+    overflow: scroll;
+    background-color: rgb(209, 238, 245);
+}
+
+.app-sidebar-note {
+    padding: 25px;
+    cursor: pointer;
+    transition: all 0.2s;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0.4rem;
+    border: 1px solid #999;
+    padding: 0.3rem;
+
+}
+
+.app-sidebar-note p {
+    margin: 10px 0;
+}
+
+.app-sidebar-note small {
+    color: #999;
+}
+
+.sidebar-note-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.app-sidebar-note:hover {
+    background-color: #f1f0f0;
+}
+
+.app-sidebar-note.active {
+    background-color: rgb(134, 222, 238);
+    border: 2px solid #000;
+    zoom: 120%;
+}
+@media  only screen and ( max-width :  40em ) 
+{
+    .app-sidebar {
+        width: 100%;
+    }
+    
+    .app-sidebar-header {
+        font-size: 0.7rem;
+        padding: 5px;
+    }
+    button {
+        background: none;
+        color: rgb(255, 183, 183);
+        border: none;
+        margin: 0;
+        padding: 0;
+        font-size: 0.7rem;
+        cursor: pointer;
+    }
+    .app-sidebar-notes {
+        margin: auto;
+        padding: 5px;
+    }
+    strong {
+        font-size: 1rem;
+    }
+    p {
+        font-size: 0.7rem;
+    }
+    .app-sidebar-note small {
+        font-size: 0.05rem;
+        border: #999;
+    }
+    .app-sidebar-note {
+        border-radius: 10px;
+        margin: 0.4rem;
+        border: 1px solid #999;
+        padding: 0.3rem;
+    } 
+    .app-sidebar-header h1 {
+        margin: 10px 0 10px 10px;
+    }
+
+    .addButton {
+        margin: 10px 10px 10px 0;
+    }
+   
+}
